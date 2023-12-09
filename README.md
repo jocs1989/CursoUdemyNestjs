@@ -114,6 +114,7 @@
 
 <div>
   <p align="center">
+  
 	<a href="https://github.com/jocs1989/ecommerce">
       		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=ecommerce&theme=tokyonight" alt="GitHub Stats" />
     	</a>
