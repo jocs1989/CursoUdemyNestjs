@@ -22,52 +22,105 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+<!--h1 without bottom border-->
+<div id="user-content-toc">
+  <ul align="center">
+    <summary><h2 style="display: inline-block">Tecnologias del curso👨🏻‍💻</h2></summary>
+  </ul>
+</div>
+<!--tech stack icons-->
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,docker,github,linux,md,mongodb,postgresql,nestjs,express,nodejs,postman,vscode&perline=14" />
+  </a>
+</p>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+<!-- Introduccion -->
 
-```bash
-$ npm install
-```
+<details><summary><h3> :open_file_folder: Herramientas para el curso </h3></summary>
 
-## Running the app
+----
 
-```bash
-# development
-$ npm run start
+<ol list-style-type="none"> Editor de codigo
+	<!-- Vscode-->
+  <li align="left"  list-style-type="none">	  
+	<a href="https://code.visualstudio.com/download">
+      		 <img width="25" height="25" src="https://skillicons.dev/icons?i=vscode&perline=14" />
+		 Visual Studio Code
+    	</a>
+	  <ol list-style-type="none"> Plugins adicionales (Opcional) 
+       <li align="left"  list-style-type="none">	  
+	<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">
+      		 <img width="25" height="25" src="https://pkief.gallerycdn.vsassets.io/extensions/pkief/material-icon-theme/4.32.0/1700479629849/Microsoft.VisualStudio.Services.Icons.Default" />
+		 Material Icon Theme
+    	</a>	 
+		</li>
+	</ol> 
+</li>
+	
+  </ol>
 
-# watch mode
-$ npm run start:dev
+  
 
-# production mode
-$ npm run start:prod
-```
+<ol list-style-type="none"> Diseño y Testeo de APIs
+	<!-- insomnia-->
+  <li align="left"  list-style-type="none">	  
+	<a href="https://insomnia.rest/download">
+      		<img src="https://insomnia.rest/images/insomnia-logo.svg" />
+    	</a>
+</li>
+	<!-- postman-->
+	  <li align="left"  list-style-type="none">		 
+	<a href="https://www.postman.com/downloads">
+      		<img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" />
+		 Postman
+    	</a>
+</li>
+  </ol>
+  
+<ol list-style-type="none"> Contenedores
+	<!--docker-->
+	  <li align="left"  list-style-type="none">		 
+	<a href="https://www.docker.com/products/docker-desktop/">
+      		<img width="25" height="25" src="https://skillicons.dev/icons?i=docker&perline=14" />
+		 Docker
+    	</a>
+</li>
+  </ol>
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
+</details>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<!-- repositories -->
 
-## Stay in touch
+<details><summary><h3> :open_file_folder: My Repositories </h3></summary>
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+----
 
-## License
 
-Nest is [MIT licensed](LICENSE).
+<div>
+  <p align="center">
+	<a href="https://github.com/jocs1989/APIBEGO">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=APIBEGO&theme=tokyonight" alt="GitHub Stats" />
+    	</a>
+  </div>
+
+
+
+
+<div>
+  <p align="center">
+	<a href="https://github.com/jocs1989/ecommerce">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=ecommerce&theme=tokyonight" alt="GitHub Stats" />
+    	</a>
+  </div>
+
+
+</details>
+
+
+
