@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CreateProductDto } from './dto/create-product.dto/create-product.dto';
 import { uuid } from 'uuidv4';
 import { UpdateProductDto } from './dto/create-product.dto/update-product.dto';
+import { PaginationQueryDto } from './dto/create-product.dto/paginationQuery.dto';
 @Injectable()
 export class ProductsService {
   private productos = [
@@ -74,7 +75,8 @@ export class ProductsService {
   ];
 
   constructor() {}
-  findAll(limit: number, offset: number) {
+  findAll(paginationQueryDto: PaginationQueryDto) {
+    const { limit = 10, offset = 1 } = paginationQueryDto;
     const n = this.productos.length;
     if (n >= offset && limit <= n) {
       return this.productos.filter((item, i) => {
