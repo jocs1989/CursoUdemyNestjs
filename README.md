@@ -36,7 +36,7 @@
 </p>
 
 
-<!-- Introduccion -->
+<!-- Introduccion  -->
 
 <details><summary><h3> :open_file_folder: Herramientas para el curso </h3></summary>
 
