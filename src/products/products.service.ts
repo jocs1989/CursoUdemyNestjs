@@ -1,11 +1,20 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { PaginationQueryDto } from './dto/paginationQuery.dto';
 import { IdDto } from './dto/id-product.dto';
+import { appConfig } from 'src/config/app.config';
+import { ConfigType } from '@nestjs/config';
 
 @Injectable()
 export class ProductsService {
+  constructor(
+    //configuration
+    @Inject(appConfig.KEY)
+    private readonly appConfigService: ConfigType<typeof appConfig>,
+  ) {
+    console.log('PORT:', this.appConfigService.port);
+  }
   create(createProductDto: CreateProductDto) {
     console.log(createProductDto);
     return 'This action adds a new product';
