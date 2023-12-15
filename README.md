@@ -217,8 +217,8 @@ Y listo tu terminal ahora luce mas linda que antes
 
 <div>
   <p align="center">
-	<a href="https://github.com/jocs1989/CursoUdemyNestjs">
-      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=CursoUdemyNestjs/tree/mod-2&theme=tokyonight" alt="GitHub Stats" />
+	<a href="https://github.com/jocs1989/CursoUdemyNestjs/tree/mod-2">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=CursoUdemyNestjs&theme=tokyonight" alt="GitHub Stats" />
     	</a>
   </div>
 
