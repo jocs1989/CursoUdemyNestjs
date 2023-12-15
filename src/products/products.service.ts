@@ -76,7 +76,13 @@ export class ProductsService {
 
   constructor() {}
   findAll(paginationQueryDto: PaginationQueryDto) {
-    const { limit = 10, offset = 1 } = paginationQueryDto;
+    // Otra forma 
+    // const { limit = 10, offset = 1 } = paginationQueryDto;
+    //const startIdx = offset - 1;
+   // const endIdx = startIdx + limit;
+    
+    return this.productos.slice(startIdx, endIdx);
+    const { limit = 10, offset = 0 } = paginationQueryDto;
     const n = this.productos.length;
     if (n >= offset && limit <= n) {
       return this.productos.filter((item, i) => {
