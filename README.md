@@ -223,9 +223,10 @@ Y listo tu terminal ahora luce mas linda que antes
 
 <details><summary><h3> :open_file_folder: NestJS Tricks </h3></summary>
 ## Instalar Nestjs
+	
 ```bash
 $ npm i -g @nestjs/cli
- ```
+```
 ## Crear un nuevo proyecto
 ```bash
 $ nest new project-name
