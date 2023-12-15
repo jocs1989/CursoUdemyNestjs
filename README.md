@@ -210,12 +210,13 @@ Y listo tu terminal ahora luce mas linda que antes
 
 <!-- repositories -->
 
-<details><summary><h3> :open_file_folder: Unidad 1 </h3></summary>
+<details><summary><h3> :open_file_folder: Unidadades del curso </h3></summary>
 
 ----
 
 
 <div>
+	<h2>Unidad 1</h2>
   <p align="center">
 	<a href="https://github.com/jocs1989/CursoUdemyNestjs/tree/mod-2">
       		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=CursoUdemyNestjs&theme=tokyonight" alt="GitHub Stats" />
@@ -226,9 +227,10 @@ Y listo tu terminal ahora luce mas linda que antes
 
 
 <div>
+	<h2>Unidad 2</h2>
   <p align="center">
-	<a href="https://github.com/jocs1989/ecommerce">
-      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=ecommerce&theme=tokyonight" alt="GitHub Stats" />
+	<a href="https://github.com/jocs1989/CursoUdemyNestjs/tree/mod-dto">
+      		<img src="https://github-readme-stats.vercel.app/api/pin/?username=jocs1989&repo=CursoUdemyNestjs&theme=tokyonight" alt="GitHub Stats" />
     	</a>
   </div>
 
