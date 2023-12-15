@@ -1,27 +1,23 @@
+import { Transform } from 'class-transformer';
 import {
-  ArrayMinSize,
-  IsArray,
-  IsEnum,
-  IsNumber,
-  IsString,
-  IsUUID,
+    ArrayMinSize, IsArray, IsEnum, IsIn, IsInt, IsNotEmpty, IsNumber, IsString, IsUUID
 } from 'class-validator';
 
-export enum Color {
-  RED = 'red',
-  GREEN = 'green',
-  BLUE = 'blue',
-}
-
 export class CreateProductDto {
-  @IsUUID(4, { message: 'No es uuid valido' })
-  readonly id: string;
-  @IsString({ message: 'Nombre no valido' })
+  @IsNotEmpty()
+  @IsString()
+  @Transform((item) => item.value.trim())
   readonly name: string;
+
+  @IsNotEmpty()
   @IsNumber()
   readonly price: number;
+
+  @IsNotEmpty()
+  @IsNumber()
+  stock: number;
+
   @IsArray()
-  @IsEnum(Color, { each: true })
   @ArrayMinSize(1)
-  readonly color: Color[];
+  readonly id_category: string[];
 }

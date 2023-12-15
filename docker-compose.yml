@@ -1,0 +1,24 @@
+# Configuracion para nuestra ecommerce modo desarrollo
+version: '2.21.0'
+
+services:
+
+  postgreSQL:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ecommerce
+    ports:
+      - 5432:5432
+
+  pgadmin4:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: coderjocs@dominio.com
+      PGADMIN_DEFAULT_PASSWORD: root
+      PGADMIN_LISTEN_PORT: 5050
+    ports:
+      -  5050:5050
