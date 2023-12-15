@@ -194,7 +194,7 @@ Y listo tu terminal ahora luce mas linda que antes
 
 <!-- repositories -->
 
-<details><summary><h3> :open_file_folder: Unidadades del curso </h3></summary>
+<details><summary><h3> :open_file_folder: Unidadades del curso ramas GIT </h3></summary>
 
 ----
 
