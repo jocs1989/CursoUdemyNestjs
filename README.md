@@ -221,11 +221,11 @@ Y listo tu terminal ahora luce mas linda que antes
 		postgres
     	</a>	 
 	       
-	 </li>
+</li>
   ```bash
-			docker pull postgres
-		```
-		 </ol>
+docker pull postgres
+```
+</ol>
   </ol>
 
 
