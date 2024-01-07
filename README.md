@@ -172,6 +172,17 @@ Y listo tu terminal ahora luce mas linda que antes
     
 	
 </li>
+
+<li align="left"  list-style-type="none">	  
+	<a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">
+      		 <img width="25" height="25" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default" />
+		Dotenv Official +Vault
+    	</a>	 
+		
+
+    
+	
+</li>
 	</ol> 
 </li>
 	
