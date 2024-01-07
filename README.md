@@ -214,6 +214,14 @@ Y listo tu terminal ahora luce mas linda que antes
 		 Docker
     	</a>
 </li>
+	<ol list-style-type="none"> Imagenes
+       <li align="left"  list-style-type="none">	  
+	<a href="https://hub.docker.com/_/postgres">
+      		 <img width="25" height="25" src="https://d1q6f0aelx0por.cloudfront.net/product-logos/library-postgres-logo.png" />
+		 Material Icon Theme
+    	</a>	 
+		</li>
+		 </ol>
   </ol>
 
 
