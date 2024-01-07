@@ -43,7 +43,7 @@
     	</a>	 
 		</li>
 		     <li align="left"  list-style-type="none">	  
-	<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">
+	<a href="https://enkia.gallerycdn.vsassets.io/extensions/enkia/tokyo-night/1.0.6/1699639270365/Microsoft.VisualStudio.Services.Icons.Default">
       		 <img width="25" height="25" src="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night" />
 		Tokyo Night
     	</a>	 
