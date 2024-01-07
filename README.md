@@ -267,7 +267,8 @@ Y listo tu terminal ahora luce mas linda que antes
 
 </details>
 
-<details><summary><h3> :open_file_folder: NestJS Tricks </h3></summary>
+<details>
+	<summary><h3> :open_file_folder: NestJS Tricks </h3></summary>
 ## Instalar Nestjs
 	
 ```bash
