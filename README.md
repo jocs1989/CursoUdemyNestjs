@@ -165,7 +165,7 @@ Y listo tu terminal ahora luce mas linda que antes
 	     <li align="left"  list-style-type="none">	  
 	<a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">
       		 <img width="25" height="25" src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.2/1687441427519/Microsoft.VisualStudio.Services.Icons.Default" />
-		Prettier - Code formatter
+		ESLint
     	</a>	 
 		
 
@@ -176,7 +176,7 @@ Y listo tu terminal ahora luce mas linda que antes
 <li align="left"  list-style-type="none">	  
 	<a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">
       		 <img width="25" height="25" src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/10.1.0/1690819498575/Microsoft.VisualStudio.Services.Icons.Default" />
-		Dotenv Official +Vault
+		Prettier - Code formatter
     	</a>	 
 		
 
