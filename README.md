@@ -222,9 +222,13 @@ Y listo tu terminal ahora luce mas linda que antes
     	</a>	 
 	       
 </li>
-  ```bash
-docker pull postgres
-```
+<li align="left"  list-style-type="none">	  
+	<a href="https://hub.docker.com/r/dpage/pgadmin4/">
+      		 <img width="25" height="25" src="https://www.pgadmin.org/static/COMPILED/assets/img/postgres-alt.svg" />
+		postgres
+    	</a>	 
+	       
+</li>
 </ol>
   </ol>
 
