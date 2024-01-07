@@ -138,7 +138,7 @@ Y listo tu terminal ahora luce mas linda que antes
       		 <img width="25" height="25" src="https://skillicons.dev/icons?i=vscode&perline=14" />
 		 Visual Studio Code
     	</a>
-	  <ol list-style-type="none"> Plugins adicionales (Opcional) 
+	 <ol list-style-type="none"> Plugins adicionales (Opcional) 
         <ol list-style-type="none"> Plugins adicionales (Opcional) 
        <li align="left"  list-style-type="none">	  
 	<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">
