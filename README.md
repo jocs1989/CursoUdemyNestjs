@@ -71,8 +71,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 #Escribir
  code .zshrc
  ```
-buscar la variable plugins y agregala asi plugins=(sudo git zsh-autosuggestions zsh-syntax-highlighting)
-modificar la variable con  ZSH_THEME="powerlevel10k/powerlevel10k" 
+## Agregado plugins
+```bash
+#Modificarl la variable plugins en el archivo .zshrc
+ plugins=(sudo git zsh-autosuggestions zsh-syntax-highlighting)
+#Modificarl la variable ZSH_THEME en el archivo .zshrc
+ZSH_THEME="powerlevel10k/powerlevel10k" 
+ ```
+
+
 ## Configuracion de colores Tokyo Nigh (Opcional)
 Abre el menú de configuraciones, selecciona opciones de color de terminal y verás el nombre de los campos de los colores. Agrégales como se muestra.
 <ul>
