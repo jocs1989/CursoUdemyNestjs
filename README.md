@@ -162,6 +162,16 @@ Y listo tu terminal ahora luce mas linda que antes
     
 	
 </li>
+	     <li align="left"  list-style-type="none">	  
+	<a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">
+      		 <img width="25" height="25" src="https://dbaeumer.gallerycdn.vsassets.io/extensions/dbaeumer/vscode-eslint/2.4.2/1687441427519/Microsoft.VisualStudio.Services.Icons.Default" />
+		Dotenv Official +Vault
+    	</a>	 
+		
+
+    
+	
+</li>
 	</ol> 
 </li>
 	
