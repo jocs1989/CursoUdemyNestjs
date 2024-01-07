@@ -72,7 +72,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
  ```
 buscar la variable plugins y agregala asi plugins=(sudo git zsh-autosuggestions zsh-syntax-highlighting)
 ## Configuracion de colores Tokyo Nigh (Opcional)
-abre el menu de configuraciones, opciones color de terminal y veras el nombre de los campos de los colores agregalos como se muestra
+Abre el menú de configuraciones, selecciona opciones de color de terminal y verás el nombre de los campos de los colores. Agrégales como se muestra.
 <ul>
   <li><span style="background-color:rgb(26, 27, 38); color:rgb(169, 177, 214)">Negro: #1a1b26</span></li>
   <li><span style="background-color:rgb(247, 118, 142); color:white">Rojo: #f7768e</span></li>
