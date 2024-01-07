@@ -48,6 +48,14 @@
 		Tokyo Night
     	</a>	 
 		</li>
+  	     <li align="left"  list-style-type="none">	  
+	<a href="https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode">
+      		 <img width="25" height="25" src="https://dotenv.gallerycdn.vsassets.io/extensions/dotenv/dotenv-vscode/0.28.1/1699146869103/Microsoft.VisualStudio.Services.Icons.Default" />
+		Dotenv Official +Vault
+    	</a>	 
+		</li>
+
+    
 	</ol> 
 </li>
 	
