@@ -35,29 +35,7 @@
       		 <img width="25" height="25" src="https://cdn.icon-icons.com/icons2/1508/PNG/512/distributorlogoubuntu_103999.png" />
 		 Ubuntu
     	</a>
-	  <ol list-style-type="none"> Plugins adicionales (Opcional) 
-       <li align="left"  list-style-type="none">	  
-	<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">
-      		 <img width="25" height="25" src="https://pkief.gallerycdn.vsassets.io/extensions/pkief/material-icon-theme/4.32.0/1700479629849/Microsoft.VisualStudio.Services.Icons.Default" />
-		 Material Icon Theme
-    	</a>	 
-		</li>
-		     <li align="left"  list-style-type="none">	  
-	<a href="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night">
-      		 <img width="25" height="25" src="https://enkia.gallerycdn.vsassets.io/extensions/enkia/tokyo-night/1.0.6/1699639270365/Microsoft.VisualStudio.Services.Icons.Default" />
-		Tokyo Night
-    	</a>	 
-		</li>
-  	     <li align="left"  list-style-type="none">	  
-	<a href="https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode">
-      		 <img width="25" height="25" src="https://dotenv.gallerycdn.vsassets.io/extensions/dotenv/dotenv-vscode/0.28.1/1699146869103/Microsoft.VisualStudio.Services.Icons.Default" />
-		Dotenv Official +Vault
-    	</a>	 
-		
-
-    
 	
-</li>
 	
 </ol>
 
@@ -161,12 +139,29 @@ Y listo tu terminal ahora luce mas linda que antes
 		 Visual Studio Code
     	</a>
 	  <ol list-style-type="none"> Plugins adicionales (Opcional) 
+        <ol list-style-type="none"> Plugins adicionales (Opcional) 
        <li align="left"  list-style-type="none">	  
 	<a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">
       		 <img width="25" height="25" src="https://pkief.gallerycdn.vsassets.io/extensions/pkief/material-icon-theme/4.32.0/1700479629849/Microsoft.VisualStudio.Services.Icons.Default" />
 		 Material Icon Theme
     	</a>	 
 		</li>
+		     <li align="left"  list-style-type="none">	  
+	<a href="https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night">
+      		 <img width="25" height="25" src="https://enkia.gallerycdn.vsassets.io/extensions/enkia/tokyo-night/1.0.6/1699639270365/Microsoft.VisualStudio.Services.Icons.Default" />
+		Tokyo Night
+    	</a>	 
+		</li>
+  	     <li align="left"  list-style-type="none">	  
+	<a href="https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode">
+      		 <img width="25" height="25" src="https://dotenv.gallerycdn.vsassets.io/extensions/dotenv/dotenv-vscode/0.28.1/1699146869103/Microsoft.VisualStudio.Services.Icons.Default" />
+		Dotenv Official +Vault
+    	</a>	 
+		
+
+    
+	
+</li>
 	</ol> 
 </li>
 	
