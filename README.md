@@ -52,7 +52,7 @@ $ sudo apt install curl -y
 # Instalar GIT
 $ sudo apt install git -y
 # Instalar ZSH
-$ sudo apt apt install zsh -y
+$ sudo apt  install zsh -y
 $ zsh --version
 # Agregar zsh como terminal predeterminada
 $ chsh -s $(which zsh) -y
@@ -63,7 +63,8 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 #Plugins productivos 
 # autosuggesions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
-# zsh-syntax-highlighting plugin 
+# zsh-syntax-highlighting plugin
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 ## Configurando ZSH
 ```bash
