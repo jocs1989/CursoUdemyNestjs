@@ -220,7 +220,10 @@ Y listo tu terminal ahora luce mas linda que antes
       		 <img width="25" height="25" src="https://d1q6f0aelx0por.cloudfront.net/product-logos/library-postgres-logo.png" />
 		postgres
     	</a>	 
-		</li>
+	       ```bash
+docker pull postgres
+		```
+	 </li>
 		 </ol>
   </ol>
 
