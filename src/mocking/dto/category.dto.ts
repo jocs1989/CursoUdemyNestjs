@@ -1,1 +1,3 @@
-export class CategoryDto {}
+export class CategoryDto {
+  name: string;
+}

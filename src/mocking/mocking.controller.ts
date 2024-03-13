@@ -1,7 +1,11 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { MockingService } from './mocking.service';
+import { log } from 'console';
+
+import { Body, Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
+
 import { CreateMockingDto } from './dto/create-mocking.dto';
+import { IdMockingDto } from './dto/id-mocking.dto';
 import { UpdateMockingDto } from './dto/update-mocking.dto';
+import { MockingService } from './mocking.service';
 
 @Controller('mocking')
 export class MockingController {
@@ -17,18 +21,21 @@ export class MockingController {
     return this.mockingService.findAll();
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.mockingService.findOne(+id);
+  @Get(':idMocking')
+  findOne(@Param() idMockingDto: IdMockingDto) {
+    return this.mockingService.findOne(idMockingDto);
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateMockingDto: UpdateMockingDto) {
-    return this.mockingService.update(+id, updateMockingDto);
+  @Patch(':idMocking')
+  update(
+    @Param() idMockingDto: IdMockingDto,
+    @Body() updateMockingDto: UpdateMockingDto,
+  ) {
+    return this.mockingService.update(idMockingDto, updateMockingDto);
   }
 
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.mockingService.remove(+id);
+  @Delete(':idMocking')
+  remove(@Param() idMockingDto: IdMockingDto) {
+    return this.mockingService.remove(idMockingDto);
   }
 }

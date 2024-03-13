@@ -1,1 +1,4 @@
-export class ImagesDto {}
+export class ImagesDto {
+  readonly name: string;
+  readonly url: string;
+}
