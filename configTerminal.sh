@@ -82,3 +82,7 @@ echo -e "\e[38;2;169;177;214mTexto del cursor: #a9b1d6\e[0m"
 echo -e "\e[38;2;169;177;214mCursor mismo: #a9b1d6\e[0m"
 echo -e "\e[38;2;103;110;149mTexto seleccionado: #a9b1d6\e[0m"
 echo -e "\e[48;2;103;110;149mFondo seleccionado: #676e95\e[0m"
+
+
+echo "Agregar"
+bash -c  "$(wget -qO- https://git.io/vQgMr)" 
