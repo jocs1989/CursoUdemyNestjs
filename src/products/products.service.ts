@@ -1,32 +1,77 @@
-import { Injectable } from '@nestjs/common';
+import { Repository } from 'typeorm';
+
+import { ConflictException, Injectable, NotFoundException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
 
 import { CreateProductDto } from './dto/create-product.dto';
 import { IdDto } from './dto/id-product.dto';
 import { PaginationQueryDto } from './dto/paginationQuery.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
+import { Product } from './entities/product.entity';
 
 @Injectable()
 export class ProductsService {
-  create(createProductDto: CreateProductDto) {
-    console.log(createProductDto);
-    return 'This action adds a new product';
+  constructor(
+    @InjectRepository(Product)
+    private productsRepository: Repository<Product>,
+  ) {}
+
+  async create(createProductDto: CreateProductDto): Promise<Product> {
+    try {
+      const newProduct = this.productsRepository.create(createProductDto);
+      return await this.productsRepository.save(newProduct);
+    } catch (err) {
+      const pgUniqueVilationErrorCode = '23505';
+      if (pgUniqueVilationErrorCode === err.code) {
+        throw new ConflictException('This product Exist');
+      }
+    }
   }
 
-  findAll(paginationQueryDto: PaginationQueryDto) {
-    console.log(paginationQueryDto);
-    return `This action returns all products`;
+  async findAll(paginationQueryDto: PaginationQueryDto): Promise<Product[]> {
+    const { limit = 2, offset = 0 } = paginationQueryDto;
+    console.log('limit:', limit, 'offset', offset);
+    return await this.productsRepository.find({
+      take: limit,
+      skip: offset,
+    });
   }
 
-  findOne(idDto: IdDto) {
-    return `This action returns a #${idDto.id} product`;
+  async findOne(idDto: IdDto): Promise<Product> {
+    const { id } = idDto;
+    const product = await this.productsRepository.findOne({
+      where: { id },
+    });
+    if (!product) {
+      throw new NotFoundException('Product not Exist');
+    }
+    return product;
   }
 
-  update(idDto: IdDto, updateProductDto: UpdateProductDto) {
-    console.log(updateProductDto);
-    return `This action updates a #${idDto.id} product`;
+  async update(
+    idDto: IdDto,
+    updateProductDto: UpdateProductDto,
+  ): Promise<Product> {
+    const { id } = idDto;
+    const product = await this.productsRepository.preload({
+      id,
+      ...updateProductDto,
+    });
+    if (!product) {
+      throw new NotFoundException('Product not Exist');
+    }
+    return this.productsRepository.save(product);
   }
 
-  remove(idDto: IdDto) {
-    return `This action removes a #${idDto.id} product`;
+  async remove(idDto: IdDto) {
+    const { id } = idDto;
+    const product = await this.productsRepository.findOne({
+      where: { id },
+    });
+    if (!product) {
+      throw new NotFoundException('Product not Exist');
+    }
+    this.productsRepository.remove(product);
+    return product;
   }
 }

@@ -1,11 +1,4 @@
-import {
-  ArrayMinSize,
-  IsArray,
-  IsEnum,
-  IsNumber,
-  IsString,
-  IsUUID,
-} from 'class-validator';
+import { ArrayMinSize, IsArray, IsEnum, IsNumber, IsString, IsUrl } from 'class-validator';
 
 export enum Color {
   RED = 'red',
@@ -14,9 +7,7 @@ export enum Color {
 }
 
 export class CreateProductDto {
-  @IsUUID(4, { message: 'No es uuid valido' })
-  readonly id: string;
-  @IsString({ message: 'Nombre no valido' })
+  @IsString()
   readonly name: string;
   @IsNumber()
   readonly price: number;
@@ -24,4 +15,7 @@ export class CreateProductDto {
   @IsEnum(Color, { each: true })
   @ArrayMinSize(1)
   readonly color: Color[];
+  @IsArray()
+  @ArrayMinSize(1)
+  readonly images: string[];
 }

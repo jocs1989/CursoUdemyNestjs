@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+
+  postgreSQL:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: Admin
+      POSTGRES_DB: nestjs
+    ports:
+      - 5432:5432
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: coderjz@undominio.com
+      PGADMIN_DEFAULT_PASSWORD: root
+      PGADMIN_LISTEN_PORT: 5050
+    ports:
+      - 5050:5050
